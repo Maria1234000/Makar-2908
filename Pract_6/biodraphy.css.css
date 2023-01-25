@@ -1,0 +1,149 @@
+
+h1{ 
+     text-align: center; 
+     font-size: 22px; 
+ } 
+ .bloks{ 
+   display: flex; 
+   flex-wrap: wrap; 
+   flex-flow: wrap;  
+  
+ } 
+  
+  
+ .class1{  
+     border: 1px solid black; 
+     margin-bottom: 2%; 
+     flex: 33%; 
+  
+ } 
+ .class2{ 
+     border: 1px solid black; 
+     margin-bottom: 2%; 
+     flex: 33%; 
+  
+ } 
+ .class3{ 
+     border: 1px solid black; 
+     margin-bottom: 2%; 
+     flex: 33%; 
+  
+ } 
+ .class4{ 
+     border: 1px solid black; 
+     margin-bottom: 2%; 
+     flex: 0.5; 
+ } 
+ .class5{ 
+     border: 1px solid black; 
+     margin-bottom: 2%; 
+     flex: 0.5; 
+  
+ } 
+  
+ #links a:link, a:visited { 
+    text-decoration: none;
+            color:#FFFFFF;
+            background-color: rgb(20, 181, 249);
+            display: block;
+            width: 250px;
+            text-align: center;
+            margin-bottom: 3px;
+            border: 1px solid black;
+  
+   } 
+   #links :hover{ 
+   display: block; 
+    height:30px; 
+    width:150px; 
+   background-color:magenta; 
+   } 
+   #links :active{ 
+   display: block; 
+    height:30px; 
+    width:150px; 
+    background-color:yellow; 
+     color: blue; 
+   } 
+   #baz_inf p{ 
+     background-color: rgb(182, 210, 24); 
+     color:black; 
+   } 
+  
+   #child p{ 
+     background-color: rgb(12, 211, 52); 
+     color:rgb(21, 14, 14); 
+   } 
+    #school_years p{ 
+     background-color: rgb(62, 62, 223); 
+     color:rgb(239, 239, 233); 
+   } 
+   #outside_school p{ 
+     background-color: red; 
+     color:rgb(11, 11, 8); 
+   } 
+   #university p{ 
+     background-color: rgb(220, 80, 220); 
+     color:white; 
+   } 
+   #backtomain{ 
+     font-style: italic; 
+   } 
+   #zmist{ 
+     text-align: center; 
+   } 
+   #links li{ 
+     font-size: 100%; 
+   } 
+   .zag h2 { 
+    font-size:120%;  
+   } 
+   .zag p { 
+     font-size: 140%; 
+   } 
+   .zag a { 
+     font-weight: bold; 
+   } 
+   #up { 
+     text-transform: uppercase; 
+   } 
+    
+   @media (min-width: 768px) and (max-width: 992px) { 
+     .bloks{ 
+       display: flex; 
+       flex-wrap: wrap; 
+      
+     } 
+      
+      
+     .class1{  
+         margin-bottom: 2%; 
+         flex: 33% 
+     } 
+     .class2{ 
+         margin-bottom: 2%; 
+         flex: 33%; 
+     } 
+     .class3{ 
+         margin-bottom: 2%; 
+         flex: 33%; 
+     } 
+     .class4{ 
+         margin-bottom: 2%; 
+         flex: 100%; 
+     } 
+     .class5{ 
+         margin-bottom: 2%; 
+         flex: 100%; 
+     } 
+ } 
+  
+ @media (max-width: 768px){ 
+   .bloks{ 
+     display: flex; 
+     flex-direction: column; 
+  
+ } 
+ }
+
+

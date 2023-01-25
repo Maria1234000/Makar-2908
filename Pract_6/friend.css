@@ -1,0 +1,97 @@
+
+table {
+            table-layout: fixed;
+            width: 80%;
+            border-collapse: separate;
+            border: 3px solid black;
+          }
+          
+          tbody tr:nth-child(4){
+      background-color: rgb(125, 124, 124);
+      cursor: pointer;
+      
+  }
+  tbody tr:nth-child(2){
+      background-color: rgb(125, 124, 124);
+      cursor: pointer;
+  }
+          th, td {
+            text-align: center;
+            border:2px solid black;
+            padding: 1%;
+            min-width: 80px;
+          }
+          
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
+  body h1 {
+              text-align: center;
+              font-size: 22px;
+          }
+          body h2 {
+              text-align: center;
+          }
+  body a {
+              font-style: italic;
+          }
+          tbody tr:nth-child(3){
+      background-color: rgb(6, 108, 37);
+        font-weight: bold;
+  
+           
+  }
+  
+  
+          tbody tr:nth-child(1){
+      background-color: rgb(6, 108, 37);
+      font-weight: bold;
+  }
+  tbody tr:nth-child(2){
+      background-color: rgb(6, 108, 37);
+      font-weight: bold;
+  }
+  tbody tr:nth-child(4){
+      background-color: rgb(6, 108, 37);
+      font-weight: bold;
+      text-align: right;
+  }
+  @media (min-width: 992px) {
+   th {font-size: 130%;}
+  tr {font-size: 120%;}
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+    th {font-size: 120%;}
+  tr {font-size: 110%;}
+  }
+  @media (max-width: 768px) {
+    th {font-size: 110%;}
+  
+  }    
+
+
+
+
+
+
+
+
+
+  
